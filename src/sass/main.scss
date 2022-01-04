@@ -1,0 +1,47 @@
+/*
+ *   Copyright (c) 2021 Joe Watson SBF
+ *   All rights reserved.
+ *   GitHub Profile :  https://github.com/joe-watson-sbf
+ */
+
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+
+@import './base/base.scss';
+@import './base/animations';
+@import './base/typography';
+@import './base/utilities';
+
+// FROM COMPONENTS
+@import 'pages/home';
+
+@import 'components/button';
+
+@import 'components/header';
+@import 'components/story';
+@import 'components/compositionImg';
+
+@import 'components/feature-box';
+@import 'components/card';
+@import 'components/about';
+
+
+// EXEMPLES
+@import 'layout/grid';
+
+
+
+
+
+
+.exemple{
+    margin-bottom: 150rem;
+    input{
+        padding: 8px;
+    }
+}
+
+
+
