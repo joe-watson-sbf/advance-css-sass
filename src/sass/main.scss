@@ -16,17 +16,18 @@
 
 // FROM COMPONENTS
 @import 'pages/home';
-
+@import 'components/form';
 @import 'components/button';
 
 @import 'components/header';
 @import 'components/story';
 @import 'components/compositionImg';
-
+@import 'components/bg-video';
 @import 'components/feature-box';
 @import 'components/card';
 @import 'components/about';
-
+@import 'components/footer';
+@import 'components/navigation';
 
 // EXEMPLES
 @import 'layout/grid';

@@ -7,8 +7,8 @@ import React from 'react'
 
 const Title = ({children, classes}) => {
     return (
-        <div className='u-center-text u-margin-bottom-medium' >
-            <h2 className={classes}>
+        <div className={classes[0]} >
+            <h2 className={classes[1]}>
                 {children}
             </h2>
         </div>

@@ -14,7 +14,7 @@ import Title from '../Title/Title'
 const About = () => {
     return (
         <section className='section-about u-margin-bottom-big'>
-            <Title classes={'heading-secondary'}>
+            <Title classes={['u-center-text u-margin-bottom-big', 'heading-secondary']}>
                 Exciting tours for adventurous people
             </Title>
 

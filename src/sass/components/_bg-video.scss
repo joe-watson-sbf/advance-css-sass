@@ -1,0 +1,22 @@
+/*
+ *   Copyright (c) 2022 Joe Watson SBF
+ *   All rights reserved.
+ *   GitHub Profile :  https://github.com/joe-watson-sbf
+ */
+ 
+.bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .15;
+    overflow: hidden;
+
+    &__content{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}

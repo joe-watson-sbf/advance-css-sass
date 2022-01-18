@@ -6,11 +6,12 @@
 import React from 'react'
 
 
-const Story = ({url, title, testimonial}) => {
+const Story = ({url, title, testimonial, username}) => {
     return (
         <div className='story'>
             <figure className='story__shape'>
                 <img className='story__img' src={url} alt='bgImag'/>
+                <figcaption className='story__caption' >{username}</figcaption>
             </figure>
             <div className='story_text'>
                 <h3 className='heading-tertiary u-margin-bottom-small'>
