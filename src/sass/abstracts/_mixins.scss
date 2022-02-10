@@ -4,33 +4,56 @@
  *   GitHub Profile :  https://github.com/joe-watson-sbf
  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- // EXEMPLE GRID
  @mixin clearfix {
-     &::after{
-         content: '';
-         display: table;
-         clear: both;
-     }
- }
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// MEDIA QUERY MANAGER
+
+/**
+
+0 -- 600PX      Phone    360      
+600 - 900px     Tablet Portrait
+900 - 1200px    Tablet Landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big Desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+$breakpoint argument choices
+- Phone
+- Tab Port
+- Tab Land
+- Big Desktop
+
+*/
+@mixin respond($breakpoint) {
+
+    @if $breakpoint == phone {
+        @media (max-width: 600px) {@content}; /*  37.5rem  */
+    }
+
+    @if $breakpoint == tab-port {
+        @media (max-width: 900px ) {@content}; /*  52.25rem  */
+    }
+
+    @if $breakpoint == tab-land {
+        @media (max-width: 1200px) {@content};  /*  75rem  */
+    }
+
+    @if $breakpoint == big-desktop {
+        @media (min-width: 1800px ) {@content}; // 112.5rem
+    }
+
+}

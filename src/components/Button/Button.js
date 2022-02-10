@@ -5,7 +5,7 @@
  */
 import React from 'react'
 
-const Button = ({children, cssClass, link}) => {
+const Button = ({children, cssClass, link='#'}) => {
     return (
         <a href={link} className={cssClass}> {children} </a>
     )

@@ -11,7 +11,7 @@ import Title from '../Title/Title';
 
 const Tours = () => {
     return (
-        <section className='section-tours'>
+        <section className='section-tours' id='section-tours'>
             <Title classes={['u-center-text u-margin-bottom-big', 'heading-secondary']}> 
                 Most popular tours 
             </Title>

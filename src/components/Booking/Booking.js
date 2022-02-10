@@ -10,11 +10,11 @@ import Title from '../Title/Title'
 
 const Booking = () => {
     return (
-        <section className='section-book'>
+        <section className='section-book' id='section-book'>
             <div className='row'>
                 <div className='book'>
                     <div className='book__form'>
-                        <form action='#' className='form'>
+                        <form className='form'>
 
                             <Title classes={['u-margin-bottom-small', 'heading-secondary']}> 
                                 Start booking now

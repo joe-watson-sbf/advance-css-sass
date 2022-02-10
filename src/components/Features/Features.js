@@ -8,7 +8,7 @@ import Box from './Box/Box'
 
 const Features = () => {
     return (
-        <section className='section-features'>
+        <section className='section-features' id='section-features'>
             <div className='row'>
                 <div className='col-1-of-4'>
                     <Box

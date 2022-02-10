@@ -16,7 +16,7 @@ import BackgroundVideo from '../BackgroundVideo/BackgroundVideo'
 
 const Stories = () => {
     return (
-        <section className='section-stories'>
+        <section className='section-stories' id='section-stories'>
             <BackgroundVideo
                 video1={video1}
                 video2={video2}

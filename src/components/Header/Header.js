@@ -22,7 +22,7 @@ const Header = () => {
                 </h1>
                 <Button 
                     cssClass={'btn btn-white btn-animated'} 
-                    link={'http://localhost:3000/'}>
+                    link={'#section-tours'}>
                         Discover our tours
                 </Button>
             </div>

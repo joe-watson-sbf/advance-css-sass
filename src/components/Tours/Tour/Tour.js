@@ -59,7 +59,7 @@ const Back = ({ title, value, classes }) => {
                 </div>
                 <Button
                     cssClass={'btn btn-white btn-animated'}
-                    link={'#'}>
+                    link={'#popup'}>
                     Book Now
                 </Button>
 

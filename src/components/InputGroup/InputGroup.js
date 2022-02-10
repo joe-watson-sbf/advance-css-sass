@@ -14,4 +14,4 @@ const InputGroup = ({type, title, id}) => {
     )
 }
 
-export default InputGroup
+export default InputGroup;
